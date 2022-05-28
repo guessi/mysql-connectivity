@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/golang:1.18-alpine3.15 as BUILDER
+FROM public.ecr.aws/docker/library/golang:1.18-alpine3.16 as BUILDER
 RUN apk add --no-cache git
 WORKDIR ${GOPATH}/src/github.com/guessi/mysql-connectivity
 COPY *.go go.mod go.sum ./
