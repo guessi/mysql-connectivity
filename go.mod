@@ -1,6 +1,6 @@
 module github.com/guessi/mysql-connectivity
 
-go 1.17
+go 1.18
 
 require (
 	github.com/go-sql-driver/mysql v1.6.0
