@@ -1,5 +1,4 @@
 *.md
-.drone*
 Dockerfile
 config.example.yaml
 config.yaml

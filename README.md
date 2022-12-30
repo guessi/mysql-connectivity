@@ -6,7 +6,6 @@
 
 [![Docker Stars](https://img.shields.io/docker/stars/guessi/mysql-connectivity.svg)](https://hub.docker.com/r/guessi/mysql-connectivity/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/guessi/mysql-connectivity.svg)](https://hub.docker.com/r/guessi/mysql-connectivity/)
-[![Build Status](https://cloud.drone.io/api/badges/guessi/mysql-connectivity/status.svg)](https://cloud.drone.io/guessi/mysql-connectivity)
 
 # Use Case
 
