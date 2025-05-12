@@ -1,14 +1,15 @@
 package main
 
 import (
+	"context"
 	"os"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 func main() {
-	app := &cli.App{
+	app := &cli.Command{
 		Name:  "mysql-connectivity",
 		Usage: "MySQL connectivity check utility",
 		Flags: []cli.Flag{
@@ -38,13 +39,13 @@ func main() {
 				Required:    true,
 			},
 		},
-		Action: func(c *cli.Context) error {
+		Action: func(context.Context, *cli.Command) error {
 			execute()
 			return nil
 		},
 	}
 
-	err := app.Run(os.Args)
+	err := app.Run(context.Background(), os.Args)
 	if err != nil {
 		log.Fatal(err.Error())
 	}
