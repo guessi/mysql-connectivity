@@ -12,7 +12,7 @@ require (
 
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
+	golang.org/x/sys v0.35.0 // indirect
 )
 
-replace gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.4.0
+replace gopkg.in/yaml.v2 => go.yaml.in/yaml/v2 v2.4.2
