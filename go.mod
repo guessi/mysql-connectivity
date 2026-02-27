@@ -4,13 +4,13 @@ go 1.25
 
 require (
 	github.com/go-sql-driver/mysql v1.9.3
-	github.com/sirupsen/logrus v1.9.3
-	github.com/urfave/cli/v3 v3.6.1
+	github.com/sirupsen/logrus v1.9.4
+	github.com/urfave/cli/v3 v3.6.2
 )
 
 require (
-	filippo.io/edwards25519 v1.1.0 // indirect
-	golang.org/x/sys v0.38.0 // indirect
+	filippo.io/edwards25519 v1.2.0 // indirect
+	golang.org/x/sys v0.41.0 // indirect
 )
 
 replace gopkg.in/yaml.v2 => go.yaml.in/yaml/v2 v2.4.2
